@@ -29,15 +29,22 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {
+    transform: translateY(2.08em) rotateZ(45deg);
+  }
 }
 
 @keyframes middle {
   from {}
-  to {}
+  to {
+    transform: scale(0%);
+  }
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {
+  }
+  to {
+    transform: translateY(-2.08em) rotateZ(-45deg);
+  }
 }

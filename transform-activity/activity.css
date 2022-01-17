@@ -1,3 +1,6 @@
 main {
-
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    transform: skewY(-8.5deg);
 }
